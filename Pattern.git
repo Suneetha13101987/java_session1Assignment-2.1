@@ -1,0 +1,55 @@
+
+public class Pattern {
+	
+	public static void main(String args[])
+		{
+		int noofspaces=2;
+		int size=3;
+		
+		for(int i=1;i<=size;i++)
+			{
+			int k=96;
+				for(noofspaces=size-i;noofspaces>=1;noofspaces--)
+				{
+				System.out.print(" ");
+				}
+			for(int j=1;j<=2*i-1;j++)
+				{
+				if(j<=i)
+					{
+					k=k+1;
+					}
+				else
+					{
+					k=k-1;
+					}
+				System.out.print((char)k);
+				}
+				System.out.println();
+			}
+		
+		for(int i=size-1;i>=1;i--)
+		{
+		int k=96;
+			for(noofspaces=1;noofspaces<=size-i;noofspaces++)
+			{
+			System.out.print(" ");
+			}
+		for(int j=1;j<=2*i-1;j++)
+			{
+			if(j<=i)
+				{
+				k=k+1;
+				}
+			else
+				{
+				k=k-1;
+				}
+			System.out.print((char)k);
+			}
+			System.out.println();
+		}
+		}
+	}
+
+

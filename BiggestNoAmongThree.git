@@ -1,0 +1,23 @@
+
+public class BiggestNoAmongThree {
+	
+	public static void main(String args[])
+	{
+		int a=10,b=30,c=3;
+		
+		if(a>b && a>c)
+		{
+			System.out.println("a is biggest number among the three numbers");
+		}
+		else
+			if(b>c)
+			{
+				System.out.println("b is biggest number among the three numbers");
+			}
+			else
+			{
+				System.out.println("c is biggest number among the three numbers");
+			}
+	}
+
+}

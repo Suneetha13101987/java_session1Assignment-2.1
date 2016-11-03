@@ -1,0 +1,11 @@
+
+public class PrintName {
+	
+	public static void main(String args[])
+	{
+		if (System.out.printf("SUNEETHA", args) == null) {}
+		{
+			
+		}
+	}
+}
